@@ -30,7 +30,7 @@ const alphabet = [
 
 const fontSizes = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 const body = document.querySelector("body");
-const divMain = document.getElementById("main");
+const divMain = document.getElementById("main"); 
 
 for (let i = 0; i < 200; i++) {
     let rand = Math.floor(Math.random() * alphabet.length);
